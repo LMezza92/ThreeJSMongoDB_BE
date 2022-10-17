@@ -1,0 +1,23 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Deploy-ready node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "mongo-db":"mongod --auth --port 27017 --dbpath data/db"
+  },
+  "author": "LM",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "edit-json-file": "^1.7.0",
+    "formidable": "^2.0.1",
+    "mongodb": "^4.4.1",
+    "nodemailer": "^6.7.3",
+    "uuid": "^8.3.2"
+  }
+}
